@@ -1,0 +1,228 @@
+body{
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu-principal {
+	width: 100%;
+	background-color: #fbfeff;
+	height: 60px;
+}
+
+main {
+	margin: 0 auto;
+	width: 1280; 
+	position: relative;
+}
+
+.logo{
+	float: left;
+	padding: 14px;
+	width: 60%
+}
+
+.menu ul li{
+	float: left;
+	display: inline-block;
+	color: #172129;
+	padding: 20px;
+}
+
+.menu ul li a{
+	color: #172129;
+	text-decoration: none;
+	font-size: 15pt;
+	font-weight: bold;
+	font-family: 'Roboto';
+}
+
+.slider-principal{
+	margin: 0 auto;
+	width: 100%; 
+	height: 526px;
+	display: inline-block;
+
+}
+
+.col-100{
+	width: 100%;
+	float: left;
+	position: relative;
+	display: inline-block;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+	background-image: url('../img/arrow-left.png');
+	position: absolute;
+	z-index: 9;
+	top: 60%;
+	left: 5%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+	background-image: url('../img/arrow-right.png');
+	position: absolute;
+	z-index: 9;
+	top: 60%;
+	right: 5%;
+}
+
+.slick-list{
+	width: 100%!important;
+}
+
+.slick-initialized{
+	overflow: hidden;
+}
+
+.slick-dots li button{
+	font-size: 0px;
+	border: 5px solid #050505;
+	width: 26px;
+	height: 26px;
+	background: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slick-dots{
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	left: 43%;
+	top: 90%;
+}
+
+li.slick-active button{
+	background: #26b522;
+}
+
+
+
+.slick-dots li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.botao {
+	
+	font-family: 'Tahoma', sans-serif;
+    border: none;
+	position: absolute;
+	z-index: 9;
+	top: 32%;
+	left: 7%;
+	padding: 15px 20px;
+	margin: 15px 30px;
+	background-color: #26b522;
+	
+
+}
+
+.btn-1{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.sobre{
+	padding-left: 47%;
+	padding-top: 50px;
+}
+
+.sobre-foto-1{
+position: absolute; 
+	left: 70px; /* posiciona a 90px para a esquerda */ 
+	top: 700px; /* posiciona a 70px para baixo */
+}
+
+.sobre-texto-1{
+	padding-left: 35%;
+	padding-top: 30px;
+	
+}
+
+.sobre-foto-2{
+position: absolute; 
+	right: 70px; 
+	top: 1100px; 
+}
+
+.sobre-texto-2{
+	padding-right: 35%;
+	padding-top: 300px;
+	
+}
+
+.portfolio{
+	padding-left: 47%;
+	padding-top: 60px;
+}	
+	.grid {
+	display: grid;
+}
+
+.grid-template-columns-3 {
+	grid-template-columns: 350px 350px 350px;
+	grid-template-rows: 250px 250px 250px;
+	padding-left: 10%;
+}
+
+
+.depoimentos{
+	padding-left: 47%;
+	padding-top: 3px;
+}
+
+.slider-2{
+	
+}	
+
+.contato{
+	padding-left: 47%;
+	padding-top: 50px;
+}
+
+.footer{
+	width: 1280px;
+	height: 378px;
+	margin: 0 auto;
+
+}
+.logo-rodape {
+	position: absolute; 
+	right: 300px; 
+	top: 3460px; 
+	
+}
+
+.retangulo2 {
+	position: absolute; 
+	right: 140px; 
+	top: 3230px; 
+	
+}
+
+.forma2 {
+	position: absolute; 
+	right: 720px; 
+	top: 3232px; 
+	
+}
+
+div.box {
+	width: 140px;
+	display: inline-block;
+}
+
+
